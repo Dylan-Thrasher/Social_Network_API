@@ -6,7 +6,7 @@ const friendsRoute = require('./friendsRoute');
 const reactionRoute = require('./reactionRoute');
 const thoughtsRoute = require('./thoughtsRoute');
 
-// using requirementto define route
+// using requirement to define route
 router.use('/users', userRoute);
 router.use('/friends', friendsRoute);
 router.use('/reactions', reactionRoute);
