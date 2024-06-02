@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 
 // connection to Mongo DB
-mongoose.connection('mongodb://localhost:27017/socialNetwork', {
+mongoose.connect('mongodb://localhost:27017/socialNetwork', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'))
