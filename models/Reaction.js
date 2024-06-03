@@ -18,7 +18,7 @@ const reactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: (timestamp) => new Date(timestamp).toISOString()
+        get: (timestamp) => new Date(timestamp).toLocaleDateString()
     }
 }, {
     // converts to json
