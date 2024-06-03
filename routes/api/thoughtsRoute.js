@@ -39,7 +39,8 @@ router.post('/', async (req,res) => {
         // pushes the thought to user
         user.thoughts.push(newThought._id)
         // saves to user and updates
-        await user.save()
+        await user.save();
+        res.status(201).json(newThought);
     } catch (err) {
         res.status(400).json({ message: err.message })
     }
