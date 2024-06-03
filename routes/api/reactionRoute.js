@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {Thought} = require('../../models')
+const {Thought} = require('../../models/')
 
 // adding new reaction in a thought's reactions array
 router.post('/:thoughtId/reactions', async (req,res) => {
