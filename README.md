@@ -12,13 +12,13 @@
   ## Installation
   After cloning the repository, please make sure that you have node package manager installed along with insomnia and mongoDB. 
   ## Usage
-  Please refer to the Video Link [here](https://app.screencastify.com/v2/manage/videos/A1IXivaaN1iIYt3XT1SK) for demonstration on how to use the project.
+  Please refer to the Video Link [here](https://drive.google.com/file/d/1yBpHuHPu9GA9NfyTy-sDE2J4n4x_Yzp-/view) for demonstration on how to use the project.
   ## License
   MIT
   ## Contributing
   
   ## Tests 
-  Please refer to the Video Link [here](https://app.screencastify.com/v2/manage/videos/A1IXivaaN1iIYt3XT1SK) for test examples
+  Please refer to the Video Link [here](https://drive.google.com/file/d/1yBpHuHPu9GA9NfyTy-sDE2J4n4x_Yzp-/view) for test examples
   ## Questions
   For any questions, please reference my repositories at [Dylan-Thrasher's Github](https://github.com/Dylan-Thrasher) or email me at thrasher_dylan@yahoo.com
 
